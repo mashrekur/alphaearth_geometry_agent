@@ -140,7 +140,7 @@ The dimension-level interpretability analysis (Paper 1) is available at:
 ## Citation
 
 ```bibtex
-@article{rahman2025manifold,
+@article{rahman2026manifold,
   title={Geometric Characterization and Compositional Reasoning over Satellite Foundation Model Embeddings},
   author={Rahman, Mashrekur and Barrett, Samuel and Last, Christina},
   year={2026}
