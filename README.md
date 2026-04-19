@@ -16,7 +16,7 @@ The analysis proceeds in two phases:
 
 **Phase 2 — Compositional Arithmetic.** Targeted property shifts using local vs. global directions, property transfer, vector analogies with FAISS retrieval, and retrieval coherence analysis linking geometric structure to downstream performance.
 
-This work builds on the dimension-level interpretability established in [Rahman (2025)](https://doi.org/10.5281/zenodo.18566431), extending from *what individual dimensions encode* to *how the embedding space is structured geometrically*.
+This work builds on the dimension-level interpretability established in [Rahman (2026)](https://doi.org/10.5281/zenodo.18566431), extending from *what individual dimensions encode* to *how the embedding space is structured geometrically*.
 
 ## Repository Structure
 
@@ -143,7 +143,7 @@ The dimension-level interpretability analysis (Paper 1) is available at:
 @article{rahman2025manifold,
   title={Geometric Characterization and Compositional Reasoning over Satellite Foundation Model Embeddings},
   author={Rahman, Mashrekur and Barrett, Samuel and Last, Christina},
-  year={2025}
+  year={2026}
 }
 ```
 
