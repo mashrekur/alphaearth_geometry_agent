@@ -1,5 +1,5 @@
 # Manifold Geometry of AlphaEarth Satellite Foundation Model Embeddings
-
+[![DOI](https://zenodo.org/badge/1179076410.svg)](https://doi.org/10.5281/zenodo.19652729)
 Analysis code for:
 
 > **Geometric Characterization and Compositional Reasoning over Satellite Foundation Model Embeddings**  
