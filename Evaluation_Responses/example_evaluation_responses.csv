@@ -1,0 +1,795 @@
+query_id,tier,query_text,intent,region,system_model,condition,judge_model,response_text,n_tool_calls,grounding,scientific_accuracy,completeness,coherence,practical_utility,weighted_score,geometric_grounding
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-sonnet-4.5,full,gemma-3-27b,"## Land Surface Profile: Boise, Idaho (2022)
+
+**Location:** 43.62°N, -116.2°W | **Elevation:** 834 m | **Region:** Pacific Northwest
+
+### Environmental Characteristics
+
+The land surface near Boise exhibits characteristics of a **semi-arid urban landscape** transitioning between the Snake River Plain and the Boise Foothills:
+
+**Vegetation & Land Cover:**
+- **NDVI (mean):** 0.40, **NDVI (max):** 0.60 — indicating moderate vegetation with seasonal variability
+- **EVI (mean):** 0.23 — relatively low enhanced vegetation index typical of shrubland/grassland ecosystems
+- **Tree cover (2000):** 6.0% — sparse tree coverage, consistent with high desert/steppe environments
+- **Impervious surface:** 35.4% — significant urban development footprint
+
+**Climate & Hydrology:**
+- **Daytime land surface temperature:** 21.7°C, **Nighttime:** 7.3°C — substantial diurnal temperature range characteristic of continental semi-arid climates
+- **Annual evapotranspiration:** 391 mm — moderate ET reflecting irrigation and riparian corridors along the Boise River
+- **Annual runoff:** 3.9 mm — very low runoff typical of high-infiltration soils and low precipitation
+- **Albedo:** 0.15 — relatively low surface reflectance
+
+**Soil Properties:**
+- **Soil pH:** 7.45 — slightly alkaline, typical of arid/semi-arid western soils
+- **Clay content:** 18.1% — loamy texture
+- **Organic carbon:** 2.2% — moderate for a semi-arid environment
+- **Soil moisture:** 0.25 — limited water availability
+- **Water capacity:** 26.6 mm — moderate water-holding capacity
+
+**Human Footprint:**
+- **Population density:** 3,085 people/km² — urban center
+- **Nighttime lights:** 39.8 — strong urbanization signal
+
+### Embedding",5,4,5,4,5,4,4.4,0
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-sonnet-4.5,no_geometric,gemma-3-27b,"## Land Surface Profile: Boise, Idaho (2022)
+
+**Location:** 43.62°N, -116.2°W | **Elevation:** 834 meters
+
+### Overview
+The land surface near Boise exhibits characteristics of a **semi-arid urban environment** in the northern Great Basin, with moderate vegetation cover and significant human modification. The area sits at the transition between the Snake River Plain and the foothills of the Rocky Mountains.
+
+---
+
+### Climate & Temperature
+- **Daytime land surface temperature:** 21.7°C (moderate, reflecting the region's continental climate)
+- **Nighttime land surface temperature:** 7.3°C (significant diurnal cooling)
+- **Embedding dimension A40** = -0.19 (correlates with lst_day_c, ρ=+0.78), indicating moderate daytime heating typical of intermountain valleys
+- **Dimension A25** = +0.23 (correlates with temp_range_c, ρ=+0.34), reflecting the substantial day-night temperature swings characteristic of arid climates
+
+### Vegetation & Land Cover
+- **NDVI mean:** 0.40, **NDVI max:** 0.60 (moderate vegetation productivity)
+- **EVI mean:** 0.23 (lower than NDVI, indicating sparse to moderate canopy)
+- **Tree cover (2000):** 5.98% (minimal tree coverage, typical of sagebrush steppe transitioning to urban)
+- **Dimension A60** = +0.26 and **A45** = +0.25 (both negatively correlate with vegetation indices), suggesting this location has lower vegetation density compared to more humid regions
+- **Dimension A36** = -0.20 (correlates negatively with EVI, ρ=-0.51), reinforcing the semi-arid vegetation character
+
+### Hydrology
+- **Annual evapotranspiration:** 391 mm (relatively low, consistent with water-limited environment)
+- **Annual runoff:** 3.9 mm (minimal surface runoff, indicating high infiltration and/or evaporation)
+-",3,5,4,4,5,4,4.4,0
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-sonnet-4.5,llm_only,gemma-3-27b,"I'll provide you with information about the land surface near Boise, Idaho based on my knowledge of the area's environmental characteristics.
+
+## Land Surface Characteristics Near Boise, Idaho (2022)
+
+### Topography and Elevation
+Boise is located in southwestern Idaho at approximately 2,700-2,800 feet (820-850 meters) elevation in the Boise River Valley. The land surface features include:
+
+- **Boise Foothills**: Immediately north of the city, steep foothills rise dramatically, reaching elevations of 3,000-6,000 feet
+- **River Valley**: The Boise River flows through a relatively flat floodplain through the city
+- **Treasure Valley**: Boise sits in this broad, flat valley that extends westward toward Oregon
+
+### Geology and Soils
+- **Bedrock**: Primarily granitic rocks from the Idaho Batholith in the foothills, with sedimentary deposits in the valley
+- **Soils**: Valley floors contain alluvial soils deposited by the Boise River, while foothills have shallow, rocky soils with limited organic content
+- **Surface materials**: Mix of loess (wind-blown silt), alluvium, and colluvium
+
+### Vegetation and Land Cover
+- **Foothills**: Dominated by sagebrush-steppe ecosystem with big sagebrush, cheatgrass (invasive annual grass), and native bunchgrasses
+- **Riparian zones**: Cottonwoods, willows, and other deciduous trees along the Boise River
+- **Urban areas**: Significant development in the valley with residential, commercial, and industrial land uses
+- **Agricultural lands**: Irrigated farmland in the surrounding valley areas
+
+### Surface Conditions
+- **Arid climate**: Annual precipitation around 12 inches, leading to generally dry surface conditions
+- **Irrigation influence**: Extensive canal systems modify the natural surface hydrology
+- **Fire-adapted landscape**: The foothills are prone to wildfires, particularly in late summer
+- **Erosion**: Hillslopes subject to erosion, especially after fires remove vegetation
+
+### Human Modifications
+- **Urbanization**: Rapid growth a",0,2,4,3,5,3,3.3,0
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-sonnet-4.5,paper1_deterministic,gemma-3-27b,"### Executive Summary
+Boise exhibits a **semi-arid intermountain climate** with cool-season moisture dominance, characterized by moderate daytime heating (21.7°C LST) and cold nights (7.3°C LST), producing a large diurnal temperature range. The land surface is a suburban mosaic (35% impervious, 3,085 people/km²) with sparse vegetation (NDVI max 0.60, 6% tree cover) on sandy-loam soils (18% clay). Critically low evapotranspiration (391 mm/yr) and minimal runoff (4 mm/yr) indicate severe moisture limitation, typical of high-desert environments at 834 m elevation near the Boise River valley.
+
+### Environmental Data
+
+| Category | Variable | Value | Unit | Interpretation |
+|----------|----------|-------|------|----------------|
+| **Terrain** | Elevation | 833.725 | m | Intermountain valley/foothill transition |
+| | Slope | 1.111 | ° | Gentle slopes (Boise Bench topography) |
+| | Aspect | 254.149 | ° | West-southwest facing (afternoon sun exposure) |
+| | Flow Accumulation | 1.316 | log | Moderate drainage convergence |
+| **Soil** | Soil Clay | 18.095 | % | Sandy loam texture (high infiltration) |
+| | Soil Organic Carbon | 2.206 | g/kg | Very low organic matter (arid-zone soils) |
+| | Soil pH | 7.451 | — | Slightly alkaline (typical of low-rainfall regions) |
+| | Soil Water Capacity | 26.573 | — | Moderate water retention |
+| **Vegetation** | NDVI (mean) | 0.404 | — | Moderate vegetation (irrigated urban greenspace) |
+| | NDVI (max) | 0.600 | — | Peak greenness (spring/early summer) |
+| | EVI (mean) | 0.229 | — | Low-moderate photosynthetic activity |
+| | LAI (mean) | — |",0,4,5,4,5,4,4.4,0
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-opus-4.6,full,gemma-3-27b,"# Land Surface Profile: Boise, Idaho (2022)
+
+## 📍 Location Overview
+**Coordinates:** 43.62°N, 116.2°W | **Elevation:** 834 m | **Region:** Pacific Northwest (interior)
+**Retrieval Confidence:** ✅ **High** (coherence = 0.05, well below the 0.15 threshold)
+
+This means the embedding neighbors for Boise are highly consistent, and we can trust the satellite-derived characterization.
+
+---
+
+## 🌍 Environmental Characterization
+
+### **Climate & Temperature**
+Boise exhibits a **semi-arid continental climate** typical of the Snake River Plain:
+- **Mean daytime land surface temperature:** 21.7°C — moderate, reflecting warm summers and cold winters
+- **Mean nighttime LST:** 7.3°C — a **14.4°C diurnal swing**, consistent with dry, low-humidity environments
+- Embedding dimension **A40 = −0.194** (ρ = +0.78 with LST day) and **A25 = +0.228** (ρ = +0.34 with temperature range) both encode this semi-arid thermal regime
+
+### **Vegetation**
+- **NDVI mean:** 0.40 | **NDVI max:** 0.60 | **EVI mean:** 0.23
+- These values indicate **sparse-to-moderate vegetation** — a mix of irrigated urban landscaping, sagebrush steppe, and dry grassland
+- **Tree cover (2000 baseline):** only **6.0%**, confirming a largely treeless landscape
+- Dimensions **A60 = +0.258** (ρ = −0.38, NDVI max) and **A36 = −0.198** (ρ = −0.51, EVI) capture this low-to-moderate greenness signature
+
+### **Hydrology**
+- **Evapotranspiration:** 391 mm/year — moderate for the region, boosted by irrigation
+- **Runoff:** only **3.",8,5,4,4,5,4,4.4,0
+T1_08,tier1,"Describe the land surface near Boise, Idaho.",location_profile,Pacific_NW,claude-opus-4.6,no_geometric,gemma-3-27b,"# Land Surface Profile: Boise, Idaho (2022)
+
+## 📍 Location Overview
+**Coordinates:** 43.62°N, 116.2°W | **Elevation:** 834 m (2,735 ft)
+**Terrain:** Nearly flat (slope = 1.1°), west-facing aspect (254°)
+
+Boise sits in the semi-arid Treasure Valley of southwestern Idaho, at the interface between the Snake River Plain and the Boise Foothills. The embedding profile and environmental variables paint a clear picture of a **developed, semi-arid urban landscape with limited vegetation and moderate thermal extremes**.
+
+---
+
+## 🌡️ Climate & Temperature
+- **Daytime land surface temperature:** 21.7°C — moderate, consistent with a continental semi-arid climate.
+- **Nighttime land surface temperature:** 7.3°C — yielding a significant diurnal range (~14°C), characteristic of dry inland environments.
+- Embedding dimension **A40 = -0.194** (strongly correlated with `lst_day_c`, ρ=+0.78) reflects the moderate-to-warm daytime thermal regime.
+- Dimension **A25 = +0.228** (correlated with `temp_range_c`, ρ=+0.34) encodes the notable temperature swings typical of this region.
+
+## 🌿 Vegetation
+- **NDVI mean:** 0.40 | **NDVI max:** 0.60 — indicating sparse-to-moderate greenness, with a seasonal peak likely in late spring/early summer.
+- **EVI mean:** 0.23 — low-to-moderate canopy density.
+- **Tree cover (2000 baseline):** only ~6%, confirming an open, largely treeless landscape dominated by shrubland and urban cover.
+- Dimensions **A60 = +0.258** (ndvi_max, ρ=-0.38) and **A45 = +0.247** (evi_mean, ρ=-0.34) both point toward the low end of the vegetation",3,5,4,4,5,4,4.4,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-sonnet-4.5,full,gemma-3-27b,"## Flood Risk Assessment: New Orleans, Louisiana (2022)
+
+### Location Profile
+**Coordinates:** 29.95°N, -90.07°W  
+**Data Quality:** High confidence (coherence = 0.05) - retrieval is highly reliable for this Southeast region location  
+**Regional Context:** Southeast CONUS, characterized by high humidity, low elevation coastal plain
+
+---
+
+### **FLOOD RISK: HIGH TO SEVERE**
+
+New Orleans exhibits multiple critical flood risk indicators based on satellite-derived environmental data:
+
+### Critical Risk Factors
+
+**1. Extremely Low Elevation**
+- **Elevation: 14.3 meters (47 feet)** - This is significantly below typical flood-safe thresholds
+- **Slope: 0.20°** - Nearly flat terrain provides minimal natural drainage
+- **Flow accumulation (log): 0.14** - Low value indicates limited natural water flow pathways
+- New Orleans' position below sea level in many areas (not fully captured in this 1km resolution data) compounds flood vulnerability
+
+**2. High Precipitation vs. Limited Natural Drainage**
+- **Annual runoff: 190.2 mm** - Substantial surface water that must be managed
+- **Annual evapotranspiration: 1,243.9 mm** - High ET partially offsets precipitation, but the flat terrain and impervious surfaces limit natural infiltration
+- **Soil moisture: 0.32** - Moderate soil saturation indicates limited additional absorption capacity
+
+**3. Extreme Urbanization (Major Aggravating Factor)**
+- **Impervious surface: 88.4%** - Among the highest possible values, indicating nearly complete urban coverage
+- **Tree cover (2000): 0.0%** - Complete absence of forest canopy
+- **NDVI mean: 0.17** - Very low vegetation index confirms minimal green infrastructure
+- **Nighttime lights: 239.0** - Maximum urban intensity
+- **Population density: 991 people/km²** - High population exposure
+
+This extreme imperviousness means:
+- Rainfall cannot infiltrate naturally
+- Stormwater runoff is concentrated and rapid
+- Flood management depends entirely on",6,4,4,3,5,4,3.95,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-sonnet-4.5,no_geometric,gemma-3-27b,"## Flood Risk Assessment: New Orleans, Louisiana (2022)
+
+### **Overall Risk Level: HIGH**
+
+New Orleans exhibits multiple environmental and hydrological characteristics that indicate **elevated flood risk**. Here's the detailed assessment based on satellite-derived data:
+
+---
+
+### **Critical Flood Risk Indicators**
+
+**1. Topographic Vulnerability**
+- **Elevation: 14.3 meters** (46.7 feet) - This is extremely low, placing much of New Orleans near or below sea level
+- **Slope: 0.20°** - Nearly flat terrain provides minimal natural drainage gradient
+- **Flow accumulation (log): 0.14** - Low value indicates limited natural drainage pathways
+
+**2. Hydrological Stress**
+- **Annual runoff: 190.2 mm** - Moderate surface runoff that must be managed through artificial drainage
+- **Annual evapotranspiration: 1,243.9 mm** - High ET relative to runoff, but precipitation exceeds this
+- **Soil moisture: 0.32** - Elevated soil saturation indicates limited infiltration capacity
+- **Soil water capacity: 35.0%** - Moderate capacity, but soils remain saturated
+
+**3. Soil Drainage Limitations**
+- **Soil clay content: 26.8%** - Moderate clay content reduces infiltration rates
+- **Soil organic carbon: 8.7 g/kg** - Relatively high, typical of wetland/delta soils with poor drainage
+- **Soil pH: 6.06** - Slightly acidic, consistent with organic-rich, poorly drained soils
+- **Dimension A08 = -0.29** (correlates with soil pH, ρ=-0.66) - Indicates soil conditions associated with waterlogged environments
+
+**4. Urban Imperviousness**
+- **Impervious surface: 88.4%** - Extremely high urbanization prevents natural infiltration
+- **Tree cover (2000): 0.0%** - Virtually no tree canopy to intercept rainfall
+- **Population density: 991 people/km²** - Dense urban development increases vulnerability",3,5,4,4,5,4,4.4,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-sonnet-4.5,llm_only,gemma-3-27b,"I'll provide you with information about the flood risk for New Orleans, Louisiana as of 2022 based on my knowledge of environmental science and this region's characteristics.
+
+## Flood Risk for New Orleans, Louisiana (2022)
+
+### **Overall Risk Level: VERY HIGH**
+
+New Orleans faces one of the highest flood risks of any major city in the Continental United States due to multiple compounding factors:
+
+### **Key Risk Factors:**
+
+1. **Elevation and Subsidence**
+   - Much of New Orleans sits **below sea level** (average elevation: -1 to -2 feet, with some areas up to -10 feet below sea level)
+   - The city experiences ongoing **land subsidence** at rates of 0.2 to 1 inch per year in some areas
+   - This sinking is caused by natural compaction of sediments, groundwater extraction, and loss of sediment replenishment from Mississippi River levees
+
+2. **Hurricane and Storm Surge Risk**
+   - Located on the Gulf Coast in a hurricane-prone region
+   - Extremely vulnerable to storm surge, which can exceed 15-20 feet during major hurricanes
+   - Hurricane Ida (August 2021) recently demonstrated continued vulnerability despite post-Katrina improvements
+   - Atlantic hurricane season runs June 1 - November 30
+
+3. **Coastal Erosion and Wetland Loss**
+   - Louisiana loses approximately **25-35 square miles of coastal wetlands annually**
+   - Wetlands serve as natural storm surge buffers; their loss increases flood exposure
+   - Barrier islands are eroding, reducing natural protection
+
+4. **Precipitation and Flash Flooding**
+   - Average annual rainfall: ~62 inches (well above national average)
+   - Aging drainage infrastructure and pump systems
+   - Intense rainfall events can overwhelm the pump system, causing street flooding even without tropical systems
+
+5. **Sea Level Rise**
+   - Relative sea level rise in New Orleans: approximately **0.4 inches per year** (combination of global sea level rise + local subsidence)
+   - This is significantly higher than the global average of ~0.13 i",0,2,5,4,5,4,3.9,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-sonnet-4.5,paper1_deterministic,gemma-3-27b,"### Executive Summary
+
+New Orleans faces **extreme structural flood vulnerability** driven by three compounding factors: **near-sea-level elevation (14.3 m)**, **88% impervious surface that generates 190 mm/yr runoff with nowhere to drain on 0.20° slopes**, and **zero natural flow accumulation** (log = 0.145), meaning this location sits in a topographic depression requiring active pumping. While soil water capacity is relatively high (35.0 index) and clay-loam texture (27% clay) could theoretically absorb moisture, the landscape is almost entirely paved, forcing all precipitation into engineered drainage systems. The combination of flat terrain, subsidence-prone coastal plain geology, and complete urban coverage creates a hydrological system entirely dependent on infrastructure—any rainfall exceeding pump capacity or storm surge overtopping levees results in immediate inundation.
+
+### Environmental Data
+
+| Category | Variable | Value | Unit | Interpretation |
+|----------|----------|-------|------|----------------|
+| **Terrain** | Elevation | 14.260 | m | **Extremely low** (47 ft above sea level, below storm surge height) |
+| | Slope | 0.203 | ° | **Essentially flat** (no gravitational drainage) |
+| | Aspect | 195.892 | ° | South-southwest facing |
+| | Flow Accumulation | 0.145 | log | **Minimal** (topographic depression, not a drainage pathway) |
+| **Hydrology** | Runoff | 190.170 | mm/yr | **High urban runoff** (19 cm/yr from impervious surfaces) |
+| | Evapotranspiration | 1,243.920 | mm/yr | **Very high ET** (humid subtropical, 124 cm/yr) |
+| | Soil Moisture | 0.322 | m³/m³ | Moderate volumetric content (32% saturation) |
+| **Soil** | Soil Clay | 26.835 | % | Loam texture (moderate permeability where exposed) |
+| | Soil Organic Carbon | 8.684 | g/kg | Moderate (coastal wetland influence) |",0,4,5,4,5,5,4.55,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-opus-4.6,full,gemma-3-27b,"# Flood Risk Assessment: New Orleans, Louisiana (2022)
+
+## 📍 Location Overview
+**Coordinates:** 29.95°N, 90.07°W | **Retrieval Confidence:** ✅ High (coherence = 0.05) | **Region:** Southeast
+
+---
+
+## 🌊 Flood Risk: **VERY HIGH**
+
+New Orleans presents one of the most flood-vulnerable profiles in CONUS, based on multiple converging environmental indicators:
+
+### Key Hydrological & Terrain Indicators
+
+| Variable | Value | Flood Relevance |
+|----------|-------|-----------------|
+| **Elevation** | **14.3 m** | Extremely low-lying; much of the city is at or below sea level |
+| **Slope** | **0.20°** | Essentially flat terrain — negligible natural drainage gradient |
+| **Runoff (annual)** | **190.2 mm/yr** | Significant surface runoff with nowhere to drain naturally |
+| **Evapotranspiration** | **1,243.9 mm/yr** | Very high ET reflects abundant moisture availability year-round |
+| **Soil Moisture** | **0.322** | Elevated baseline soil moisture — limited infiltration capacity |
+| **Soil Water Capacity** | **35.0 mm** | Moderate water-holding capacity, but easily overwhelmed in storms |
+| **Soil Clay Content** | **26.8%** | Clay-rich soils impede infiltration, promoting surface ponding |
+| **Flow Accumulation (log)** | **0.14** | Low local accumulation, but situated in the Mississippi River delta floodplain |
+| **Impervious Surface** | **88.4%** | Extremely high — nearly all rainfall becomes immediate runoff |
+| **Tree Cover** | **0.0%** | No tree canopy to intercept rainfall or stabilize soil |
+
+### Embedding Dimension Insights
+
+- **A52 = -0.19** (correlated with `et_annual_mm`, ρ = -0.52, Hydrology): Reflects",7,5,5,4,5,5,4.8,0
+T1_22,tier1,"What is the flood risk for New Orleans, Louisiana?",flood_risk,Southeast,claude-opus-4.6,no_geometric,gemma-3-27b,"# Flood Risk Assessment: New Orleans, Louisiana (2022)
+
+## Overall Assessment: **HIGH to VERY HIGH Flood Risk** 🔴
+
+New Orleans presents one of the most flood-vulnerable profiles in CONUS, driven by a convergence of topographic, hydrological, soil, and urban factors. Here is the detailed breakdown:
+
+---
+
+## 1. Topographic Vulnerability
+- **Elevation: 14.3 m** — Extremely low-lying, barely above sea level. Much of the city is at or below sea level in reality; this grid-cell average reflects slight elevation variation.
+- **Slope: 0.20°** — Essentially flat terrain, meaning water has virtually no gravitational pathway to drain naturally.
+- **Aspect: 195.9°** — South-southwest facing, oriented toward the Gulf of Mexico and storm surge pathways.
+
+## 2. Hydrological Indicators
+- **Evapotranspiration (ET): 1,243.9 mm/yr** — Very high, reflecting a warm, moisture-saturated environment. Embedding dimensions A18 (ρ=-0.67 with ET) and A52 (ρ=-0.52 with ET) both show strongly negative values (-0.204 and -0.188), consistent with extreme hydrological activity.
+- **Annual Runoff: 190.2 mm/yr** — Significant surface runoff volume, compounded by the inability of impervious surfaces to absorb rainfall.
+- **Soil Moisture: 0.32** — Moderately high, indicating the ground is frequently near saturation, reducing infiltration capacity during storm events.
+- **Flow Accumulation (log): 0.14** — Low local accumulation, but this reflects New Orleans' engineered drainage system rather than natural drainage.
+
+## 3. Soil & Infiltration Capacity
+- **Soil Clay Content: 26.8%** — Moderately high clay fraction, which impedes water infiltration and promotes surface ponding.
+- **Soil Water Holding Capacity: 35.0** — High, meaning soils retain water and become waterlogged quickly.",3,5,4,4,5,4,4.4,0
+T2_04,tier2,Compare the NDVI patterns of coastal California versus inland Nevada.,vegetation_health,Southwest,claude-sonnet-4.5,full,gemma-3-27b,"## Coastal California vs Inland Nevada: NDVI Pattern Comparison (2022)
+
+### Location Summary
+- **Coastal California**: San Francisco (37.77°N, -122.42°W)
+- **Inland Nevada**: Las Vegas (36.17°N, -115.14°W)
+- **Embedding Distance**: 0.85 (cosine similarity: 0.64) — moderate dissimilarity
+- **Retrieval Confidence**: **High for both locations** (coherence = 0.05) — comparison is reliable
+
+---
+
+### NDVI Patterns: Stark Contrast
+
+**Coastal California (San Francisco)**
+- **NDVI Mean**: 0.1865
+- **NDVI Max**: 0.3243
+- **EVI Mean**: 0.1054
+
+**Inland Nevada (Las Vegas)**
+- **NDVI Mean**: 0.0788 (58% lower than coastal CA)
+- **NDVI Max**: 0.1108 (66% lower than coastal CA)
+- **EVI Mean**: 0.0524 (50% lower than coastal CA)
+
+The coastal California location shows **significantly higher vegetation indices** across all metrics. San Francisco's NDVI mean of 0.19 indicates sparse to moderate vegetation (typical for urban coastal areas with fog influence), while Las Vegas's NDVI mean of 0.08 represents extremely sparse vegetation characteristic of desert environments.
+
+---
+
+### Environmental Drivers of NDVI Differences
+
+**1. Water Availability (Primary Driver)**
+- **Evapotranspiration**: San Francisco = 728 mm/yr vs Las Vegas = 103 mm/yr (7× higher)
+- **Runoff**: San Francisco = 24.7 mm/yr vs Las Vegas = 0.3 mm/yr (76× higher)
+- **Soil Moisture**: San Francisco = 0.162 vs Las Vegas = 0.029 (5.7× higher)
+
+The massive difference in evapotranspiration reflects coastal California's Mediterranean climate with winter rainfall and summer fog, versus Nevada's extreme aridity.
+
+**2. Temperature Stress**
+-",9,4,5,4,5,4,4.4,4
+T2_04,tier2,Compare the NDVI patterns of coastal California versus inland Nevada.,vegetation_health,Southwest,claude-sonnet-4.5,no_geometric,gemma-3-27b,"## NDVI Pattern Comparison: Coastal California vs. Inland Nevada (2022)
+
+### Overview
+The satellite data reveals stark contrasts in vegetation patterns between coastal California and inland Nevada, driven by fundamental differences in water availability, climate, and land cover.
+
+---
+
+### **NDVI Metrics: Coastal California**
+
+**San Francisco Bay Area (37.77°N, -122.42°W):**
+- **NDVI mean**: 0.1865
+- **NDVI max**: 0.3243
+- **EVI mean**: 0.1054
+- **Context**: Urban-dominated landscape (82.9% impervious surface) with minimal tree cover (0.79%)
+
+**Monterey Bay Coast (36.6°N, -121.9°W):**
+- **NDVI mean**: 0.3885 ⭐
+- **NDVI max**: 0.4996 ⭐
+- **EVI mean**: 0.2013
+- **LAI mean**: 0.9978
+- **Context**: Coastal vegetation with moderate tree cover (8.5%), healthiest vegetation signal
+
+---
+
+### **NDVI Metrics: Inland Nevada**
+
+**Las Vegas (36.17°N, -115.14°W):**
+- **NDVI mean**: 0.0788 ⚠️
+- **NDVI max**: 0.1108 ⚠️
+- **EVI mean**: 0.0524
+- **LAI mean**: 0.1041
+- **Context**: Desert urban environment, zero tree cover, extremely sparse vegetation
+
+**Reno Area (39.5°N, -119.8°W):**
+- **NDVI mean**: 0.2590
+- **NDVI max**: 0.4222
+- **EVI mean**: 0.1570
+- **Context**: High-elevation urban area (1,357m) with minimal tree cover (0.37%)
+
+---
+
+### **Key Findings**
+
+**1. Vegetation Productivity Gradient**
+- **Coastal California** shows 2.9× higher mean ND",11,3,4,4,5,4,3.9,1
+T2_04,tier2,Compare the NDVI patterns of coastal California versus inland Nevada.,vegetation_health,Southwest,claude-sonnet-4.5,llm_only,gemma-3-27b,"I appreciate your question about comparing NDVI (Normalized Difference Vegetation Index) patterns between coastal California and inland Nevada. However, as noted in my instructions, **I do not have access to satellite data or databases** that would contain NDVI information.
+
+That said, I can provide you with expert knowledge about what NDVI patterns would typically look like in these two regions based on their environmental characteristics:
+
+## **Coastal California NDVI Patterns (2022)**
+
+**Higher NDVI Values (0.4-0.8):**
+- Coastal California generally shows **moderate to high NDVI values**, especially in:
+  - **Redwood and mixed conifer forests** in Northern California
+  - **Coastal scrub and chaparral** vegetation communities
+  - **Agricultural areas** in Central Coast valleys (Salinas, Santa Maria)
+  
+**Seasonal Variation:**
+- **Winter/Spring (Dec-May)**: Highest NDVI due to Mediterranean climate with winter rainfall
+- **Summer/Fall (Jun-Nov)**: Declining NDVI as vegetation senesces during dry season
+- **Coastal fog belt**: More stable NDVI year-round due to moisture from marine layer
+
+**Typical Range**: 0.3-0.7, with higher values in forested areas and irrigated agriculture
+
+---
+
+## **Inland Nevada NDVI Patterns (2022)**
+
+**Lower NDVI Values (0.1-0.3):**
+- Nevada shows **significantly lower NDVI values** due to:
+  - **Desert and semi-arid climate** (Great Basin Desert)
+  - **Sparse vegetation**: sagebrush, saltbrush, greasewood
+  - **Limited precipitation** (5-10 inches annually in valleys)
+
+**Seasonal Variation:**
+- **Spring (Apr-May)**: Brief peak following winter/spring precipitation
+- **Summer (Jun-Sep)**: Lowest NDVI due to extreme heat and drought
+- **Mountain areas**: Higher NDVI (0.4-0.6) in Sierra Nevada eastern slopes and higher elevation forests
+
+**Typical Range**: 0.1-0.3 in valleys and basins; 0.3-0.5 in mountainous areas
+
+---
+
+## **Key Comparisons**",0,1,4,4,5,3,3.25,1
+T2_04,tier2,Compare the NDVI patterns of coastal California versus inland Nevada.,vegetation_health,Southwest,claude-opus-4.6,full,gemma-3-27b,"# NDVI Pattern Comparison: Coastal California vs. Inland Nevada (2022)
+
+## Overview
+
+This analysis compares vegetation patterns between **two coastal California sites** (Santa Cruz, ~37.0°N, 122.0°W and Santa Barbara, ~34.4°N, 119.7°W) and **two inland Nevada sites** (Elko, ~40.8°N, 115.8°W and Winnemucca, ~41.0°N, 117.7°W) using AlphaEarth embeddings and MODIS-derived NDVI data for 2022.
+
+**Retrieval confidence is high** for all four locations (predicted coherence = 0.05), well below the Great Plains benchmark of 0.144, meaning the embedding-based characterizations are highly reliable.
+
+---
+
+## NDVI Comparison at a Glance
+
+| Metric | Coastal CA (Santa Cruz) | Coastal CA (Santa Barbara) | Inland NV (Elko) | Inland NV (Winnemucca) |
+|---|---|---|---|---|
+| **NDVI Mean** | **0.343** | **0.333** | **0.153** | **0.249** |
+| **NDVI Max** | **0.447** | **0.386** | **0.274** | **0.393** |
+| **EVI Mean** | 0.199 | 0.187 | 0.097 | 0.171 |
+| **Tree Cover (2000)** | 4.6% | 2.4% | 0.0% | 0.0% |
+| **ET (mm/yr)** | 561 | — | 304 | 239 |
+| **Soil Moisture** | 0.227 | — | 0.219 | 0.121 |
+| **Elevation (m)** | 11 | 34 | 1,573 | 1,316 |
+
+### Key Findings
+
+**1. Coastal California has ~2× higher mean NDVI than inland",13,4,4,3,5,4,3.95,4
+T2_04,tier2,Compare the NDVI patterns of coastal California versus inland Nevada.,vegetation_health,Southwest,claude-opus-4.6,no_geometric,gemma-3-27b,"Now let me run the direct comparisons and interpret the key embedding dimensions.
+
+```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier2"",
+  ""reasoning"": ""Running direct comparisons between representative coastal CA and inland NV locations, and interpreting embeddings for NDVI-related dimensions."",
+  ""calls"": [
+    {""tool"": ""compare_locations"", ""params"": {""location1"": ""34.42, -119.70"", ""location2"": ""39.50, -117.50"", ""year"": 2022}},
+    {""tool"": ""compare_locations"", ""params"": {""location1"": ""36.60, -121.90"", ""location2"": ""40.83, -115.76"", ""year"": 2022}},
+    {""tool"": ""search_similar"", ""params"": {""embedding"": [0.0457, -0.0283, 0.0186, -0.0037, 0.0359, -0.0853, -0.0271, -0.0027, 0.0, 0.0, 0.0, 0.0, -0.1967, -0.2036, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2042, 0.0, 0.0, 0.2103, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.2460, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.3667, 0.2081, 0.0, 0.0, 0.0, 0.1",10,3,4,4,4,3,3.6,1
+T2_12,tier2,Compare the precipitation regimes of Seattle and Albuquerque.,climate_summary,Pacific_NW,claude-sonnet-4.5,full,gemma-3-27b,"```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier2"",
+  ""reasoning"": ""Need to retrieve geometric context for both locations to assess retrieval confidence, and interpret the key precipitation-related embedding dimensions (especially A57 which correlates with annual precipitation, and A00/A18 which relate to evapotranspiration)."",
+  ""calls"": [
+    {""tool"": ""get_geometric_context"", ""params"": {""latitude"": 47.61, ""longitude"": -122.33}},
+    {""tool"": ""get_geometric_context"", ""params"": {""latitude"": 35.08, ""longitude"": -106.65}},
+    {""tool"": ""interpret_dimensions"", ""params"": {""embedding"": [-0.3179, -0.0614, 0.0049, -0.0919, -0.1215, 0.0877, 0.0642, 0.1338, 0.0361, 0.0050, -0.0861, 0.1419, 0.0265, -0.0325, 0.0608, -0.1231, 0.2397, 0.1225, -0.0662, -0.0315, 0.0642, -0.1442, -0.1859, 0.1439, -0.1270, 0.1871, 0.1417, -0.0584, 0.0417, 0.0864, 0.0642, -0.1270, 0.1419, -0.0662, 0.0642, 0.1439, -0.2840, 0.0877, -0.0919, -0.0315, -0.1856, 0.0877, 0.0877, 0.1338, -0.0919, 0.0877, -0.0919, 0.0877, 0.1338, -0.1270, -0.2049, 0.1853, 0.0877, -0.0919, 0.2438, -0.2216, 0.0877, 0",6,4,4,3,5,3,3.8,4
+T2_12,tier2,Compare the precipitation regimes of Seattle and Albuquerque.,climate_summary,Pacific_NW,claude-sonnet-4.5,no_geometric,gemma-3-27b,"## Precipitation Regime Comparison: Seattle vs Albuquerque (2022)
+
+### Overview
+Seattle and Albuquerque represent two dramatically different precipitation regimes in the continental United States, with stark contrasts across hydrological, climatic, and vegetation metrics.
+
+---
+
+### **Hydrological Differences**
+
+**Evapotranspiration (ET):**
+- **Seattle**: 688.6 mm/year
+- **Albuquerque**: 272.9 mm/year
+- **Difference**: Seattle has **2.5× higher** annual ET, reflecting its maritime Pacific Northwest climate with abundant moisture availability throughout the year.
+
+**Runoff:**
+- **Seattle**: 65.9 mm/year
+- **Albuquerque**: 2.0 mm/year
+- **Difference**: Seattle generates **32× more runoff**, indicating substantial precipitation surplus that feeds streams and groundwater. Albuquerque's minimal runoff reflects its arid environment where nearly all precipitation is consumed by evaporation or infiltration.
+
+**Soil Moisture:**
+- **Seattle**: 0.314 (volumetric fraction)
+- **Albuquerque**: 0.210
+- **Difference**: Seattle maintains **50% higher soil moisture**, supporting its characteristic temperate rainforest and urban vegetation.
+
+---
+
+### **Temperature & Climate Context**
+
+**Daytime Land Surface Temperature:**
+- **Seattle**: 15.7°C
+- **Albuquerque**: 27.1°C
+- **Difference**: Albuquerque is **11.4°C warmer**, driving much higher evaporative demand and contributing to its arid character.
+
+**Nighttime LST:**
+- **Seattle**: 6.6°C
+- **Albuquerque**: 10.4°C
+- **Difference**: Smaller nighttime difference reflects Albuquerque's high elevation (1,511 m vs 45 m) moderating nighttime temperatures despite desert conditions.
+
+---
+
+### **Vegetation Response**
+
+**NDVI (Normalized Difference Vegetation Index):**
+- **Seattle**: Mean = 0.266, Max =",5,3,4,4,5,4,3.9,1
+T2_12,tier2,Compare the precipitation regimes of Seattle and Albuquerque.,climate_summary,Pacific_NW,claude-sonnet-4.5,llm_only,gemma-3-27b,"I'll provide you with a comparison of the precipitation regimes of Seattle, Washington and Albuquerque, New Mexico based on my knowledge of these locations' climates.
+
+## Precipitation Regime Comparison: Seattle vs. Albuquerque
+
+### **Seattle, Washington**
+
+**Climate Type:** Marine West Coast (Oceanic - Cfb in Köppen classification)
+
+**Annual Precipitation (typical):** ~37-38 inches (940-965 mm)
+
+**Seasonal Distribution:**
+- **Wet Season:** October through March (fall and winter)
+- **Dry Season:** July and August (summer)
+- **Peak months:** November, December, and January typically receive 5-6 inches each
+- **Driest months:** July and August receive less than 1 inch each
+
+**Precipitation Characteristics:**
+- Frequent light rain and drizzle
+- High number of rainy days (150-160+ days per year)
+- Low intensity, persistent precipitation
+- Dominated by frontal systems from the Pacific Ocean
+- Orographic enhancement from the Olympic and Cascade Mountains
+- Snow is relatively rare in the city (5-10 inches annually)
+
+---
+
+### **Albuquerque, New Mexico**
+
+**Climate Type:** Cold Semi-Arid (BSk in Köppen classification)
+
+**Annual Precipitation (typical):** ~9-10 inches (230-255 mm)
+
+**Seasonal Distribution:**
+- **Monsoon Season:** July through September (summer)
+- **Secondary wet period:** Winter months (December-February)
+- **Peak month:** July-August during North American Monsoon
+- **Driest months:** April, May, and June
+
+**Precipitation Characteristics:**
+- Low total precipitation (about 1/4 of Seattle's)
+- Convective thunderstorms dominate summer precipitation
+- Brief, intense rainfall events
+- Approximately 60 rainy days per year
+- Bimodal distribution (summer monsoon + winter storms)
+- Winter precipitation can include snow (10-11 inches annually)
+- High evaporation rates due to low humidity and high elevation
+
+---
+
+### **Key Contrasts:**
+
+1. **Total Amount:** Seattle receives nearly 4 times more precipitation than Albuquerque
+
+2. **Season",0,2,4,5,5,4,3.85,1
+T2_12,tier2,Compare the precipitation regimes of Seattle and Albuquerque.,climate_summary,Pacific_NW,claude-opus-4.6,full,gemma-3-27b,"# Precipitation Regime Comparison: Seattle vs. Albuquerque (2022)
+
+## Overview
+
+Seattle, WA and Albuquerque, NM represent two of the most contrasting precipitation regimes in the Continental United States — the wet Pacific Northwest maritime climate versus the arid Southwest desert. The embedding space captures this dramatically: the two locations have an **embedding distance of 0.94** and a **cosine similarity of only 0.56**, confirming they occupy very different regions of environmental space. Importantly, both locations have **high retrieval confidence** (predicted coherence = 0.05), so we can trust these comparisons.
+
+---
+
+## Key Precipitation & Hydrology Metrics
+
+| Variable | Seattle | Albuquerque | Difference |
+|---|---|---|---|
+| **Evapotranspiration (ET)** | **688.6 mm/yr** | **272.9 mm/yr** | +415.6 mm |
+| **Runoff** | **65.9 mm/yr** | **2.0 mm/yr** | +63.9 mm |
+| **Soil Moisture** | **0.314** | **0.210** | +0.104 |
+| **Soil Water Capacity** | **28.0** | **20.7** | +7.3 |
+
+### What the Numbers Tell Us
+
+- **Evapotranspiration (ET):** Seattle's ET of ~689 mm/yr is **2.5× greater** than Albuquerque's ~273 mm/yr. This is a direct proxy for water availability — Seattle has abundant moisture to cycle through vegetation and soils, while Albuquerque is severely water-limited. The key embedding dimension **A00** (ρ = -0.74 with ET) and **A18** (ρ = -0.67 with ET) encode this contrast.
+
+- **Runoff:** The most extreme difference — Seattle generates **32× more runoff** (65.9 vs. 2.0 mm/yr). Albuquerque's near-zero runoff reflects a regime where virtually all precipitation is either",13,5,4,4,5,4,4.4,5
+T2_12,tier2,Compare the precipitation regimes of Seattle and Albuquerque.,climate_summary,Pacific_NW,claude-opus-4.6,no_geometric,gemma-3-27b,"I notice the retrieved environmental variables don't include `precip_annual_mm` directly, but several proxy variables and embedding dimensions strongly encode precipitation. Let me also get the dimension interpretations for both embeddings.
+
+```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier2"",
+  ""reasoning"": ""Getting dimension interpretations for both embeddings to analyze precipitation-related dimensions (especially A57, which strongly correlates with precip_annual_mm at ρ=+0.78)."",
+  ""calls"": [
+    {""tool"": ""interpret_dimensions"", ""params"": {""embedding"": [-0.3179, -0.0509, 0.0274, -0.0595, 0.0424, -0.1102, -0.0305, 0.0595, -0.0916, -0.0471, -0.0222, -0.0671, -0.0148, 0.0476, 0.1085, -0.0419, 0.2397, -0.0283, -0.1226, 0.0218, -0.1045, -0.0299, -0.1859, 0.0289, 0.0812, 0.1871, -0.0671, 0.0281, -0.0957, 0.0565, 0.0336, -0.0556, 0.0264, 0.0502, 0.0195, -0.0168, -0.2840, -0.0451, 0.0399, -0.0260, -0.1856, 0.0107, 0.0399, -0.0618, -0.0222, -0.0133, -0.0156, 0.0340, -0.0247, 0.0561, -0.2049, 0.1853, -0.0488, -0.0459, 0.2438, -0.2216, 0.0475, 0.1494, 0.0671, 0.0474, -0.0368, -0.0122, -0.",6,4,4,2,5,2,3.45,1
+T3_01,tier3,"If the Central Valley of California received Pacific Northwest levels of precipitation, what would the land surface most likely resemble?",climate_summary,Southwest,claude-sonnet-4.5,full,gemma-3-27b,"```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier3"",
+  ""reasoning"": ""Good! Now I have Pacific NW data showing ET ~600-630 mm/year (vs Central Valley's 246 mm). The key insight: I need to search for locations that have Central Valley-like base characteristics (flat, agricultural, similar temperatures) but with Pacific NW moisture levels. I'll create a modified embedding by adjusting Central Valley's precipitation/ET-related dimensions toward Pacific NW values, then search for similar locations."",
+  ""calls"": [
+    {""tool"": ""interpret_dimensions"", ""params"": {""embedding"": [-0.217, -0.0519, 0.0719, -0.0368, 0.0342, 0.1201, 0.2061, 0.2219, -0.0858, 0.0137, 0.1408, -0.0652, 0.0726, 0.0441, 0.1494, -0.1205, -0.1212, 0.1305, 0.1673, 0.0221, 0.0681, 0.0014, 0.1237, -0.0167, -0.0249, 0.0859, 0.0653, 0.1399, 0.187, -0.0421, 0.1096, -0.2251, 0.0133, -0.1822, -0.0551, -0.0116, -0.0359, -0.0663, -0.2283, -0.0479, -0.1128, -0.2405, -0.0294, -0.2529, 0.0081, 0.0313, 0.0012, 0.0464, 0.1068, 0.0161, 0.1287, -0.0256, 0.0298, -0.0057, 0.1039, 0.1111, 0.0283, -0.0072, -0.0362, 0.1146, 0.0188, 0.0",12,4,4,3,5,4,3.95,2
+T3_01,tier3,"If the Central Valley of California received Pacific Northwest levels of precipitation, what would the land surface most likely resemble?",climate_summary,Southwest,claude-sonnet-4.5,no_geometric,gemma-3-27b,"```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier3"",
+  ""reasoning"": ""I need to understand the precipitation-related dimensions and then search for real-world analogs. The Central Valley has very low ET (246mm) and runoff (2.4mm), while PNW has high ET (573mm) and runoff (128mm). I'll interpret dimensions to identify precipitation-related ones, then create a hybrid query vector that combines Central Valley's base characteristics with Pacific NW precipitation signals to find real-world locations that match this counterfactual scenario."",
+  ""calls"": [
+    {""tool"": ""interpret_dimensions"", ""params"": {""embedding"": [-0.0159, -0.2170, 0.0670, -0.1264, 0.1357, -0.1010, 0.2061, 0.2219, -0.1617, 0.0675, 0.0831, -0.0322, -0.0043, 0.0361, -0.0799, 0.1232, 0.1227, 0.0322, 0.0267, 0.0030, 0.0424, -0.0698, 0.0464, -0.0612, 0.0256, 0.0413, -0.1191, -0.0683, 0.1870, -0.0472, 0.0369, -0.2251, -0.1162, -0.1822, -0.1163, 0.0076, 0.0154, 0.1212, -0.2283, 0.1063, -0.0766, -0.2405, 0.1196, -0.2529, 0.0134, -0.0195, 0.1132, -0.0691, 0.0431, -0.0324, 0.1299, 0.0354, -0.0527, -0.0134, 0.0154, 0.0214, -0.1353, -0.1536, -0.0231, -0.0264",4,4,4,3,5,3,3.8,1
+T3_01,tier3,"If the Central Valley of California received Pacific Northwest levels of precipitation, what would the land surface most likely resemble?",climate_summary,Southwest,claude-sonnet-4.5,llm_only,gemma-3-27b,I'll help you analyze what the Central Valley of California would look like if it received Pacific Northwest levels of precipitation. Let me search for relevant environmental data to provide you with specific details.,0,1,2,1,3,1,1.55,1
+T3_01,tier3,"If the Central Valley of California received Pacific Northwest levels of precipitation, what would the land surface most likely resemble?",climate_summary,Southwest,claude-opus-4.6,full,gemma-3-27b,"# Counterfactual Analysis: Central Valley of California with Pacific Northwest Precipitation
+
+## The Question
+What would California's Central Valley look like if it received Pacific Northwest levels of precipitation?
+
+## Baseline Profiles
+
+### Central Valley (Fresno area: 37.0°N, -120.5°W) — Current Conditions
+| Variable | Value | Interpretation |
+|----------|-------|----------------|
+| **ET (annual)** | 246 mm | Very low evapotranspiration — water-limited system |
+| **EVI mean** | 0.264 | Low-moderate vegetation vigor |
+| **NDVI max** | 0.647 | Seasonal green-up (irrigated agriculture) |
+| **LAI mean** | 0.690 | Sparse canopy |
+| **Tree cover** | 13.7% | Minimal tree cover — open grassland/cropland |
+| **LST day** | 25.8°C | Hot daytime surface temperatures |
+| **LST night** | 12.2°C | Warm nights (Mediterranean climate) |
+| **Soil moisture** | 0.184 | Dry soils |
+| **Soil pH** | 7.70 | Alkaline (typical of arid/semi-arid soils) |
+| **Soil organic carbon** | 2.0 g/kg | Very low — limited organic matter accumulation |
+| **Runoff** | 2.4 mm | Almost no runoff — extreme water deficit |
+| **Elevation** | 39.5 m | Flat valley floor |
+| **Impervious** | 0% | Rural agricultural land |
+
+**Retrieval confidence: HIGH** (coherence = 0.05) — the Central Valley is a homogeneous landscape and the embedding is very reliable.
+
+### Rural Pacific Northwest (Willamette Valley, OR: 44.5°N, -123.3°W)
+| Variable | Value | Interpretation |
+|----------|-------|----------------|
+| **ET (annual)** | 607 mm | ~2.5× Central Valley — abundant",26,4,4,3,5,4,3.95,4
+T3_01,tier3,"If the Central Valley of California received Pacific Northwest levels of precipitation, what would the land surface most likely resemble?",climate_summary,Southwest,claude-opus-4.6,no_geometric,gemma-3-27b,"The PNW locations are urban (Portland/Seattle), which skews the data. I need rural PNW locations for a fair precipitation comparison. Let me also get a rural Willamette Valley location and interpret the Central Valley embedding. Then I'll construct the counterfactual embedding.
+
+```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier3"",
+  ""reasoning"": ""Portland and Seattle are heavily urban (79-91% impervious). I need rural PNW locations to get representative precipitation and vegetation. I'll sample the rural Willamette Valley and a location in western Washington, plus interpret the Central Valley embedding properly."",
+  ""calls"": [
+    {""tool"": ""retrieve_embedding"", ""params"": {""latitude"": 44.5, ""longitude"": -123.2, ""year"": 2022}},
+    {""tool"": ""retrieve_embedding"", ""params"": {""latitude"": 46.5, ""longitude"": -123.0, ""year"": 2022}},
+    {""tool"": ""interpret_dimensions"", ""params"": {""embedding"": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,",9,2,4,2,5,3,3.1,1
+T3_14,tier3,Why might embedding-based retrieval be less reliable in the Rocky Mountain foothills compared to the Great Plains?,location_profile,Mountain_West,claude-sonnet-4.5,full,gemma-3-27b,"## Embedding-Based Retrieval Reliability: Rocky Mountain Foothills vs. Great Plains
+
+Based on the geometric analysis and regional data from Paper 2, I can explain why embedding-based retrieval **should theoretically** be less reliable in the Rocky Mountain foothills compared to the Great Plains, though the specific locations I sampled showed uniformly high confidence.
+
+### **Theoretical Framework from Paper 2**
+
+According to the geometric dictionary, regional retrieval coherence varies significantly across CONUS:
+
+- **Great Plains: coherence = 0.144** (most coherent region)
+- **Mountain West: coherence = 0.192** (33% higher variance)
+- **Pacific NW: coherence = 0.218** (least coherent)
+
+Lower coherence means **higher environmental variance among k-nearest neighbors** in embedding space—i.e., locations with similar embeddings may differ substantially in their actual environmental properties.
+
+### **Why Mountain Foothills Are Less Reliable**
+
+**1. Topographic Heterogeneity**
+The Rocky Mountain foothills exhibit extreme environmental gradients over short distances:
+- **Elevation changes**: My foothill sample (40.5°N, -105.0°W) sits at 1,487m elevation with slope=0.14°, but nearby locations span montane forests to high plains
+- **Great Plains sample** (39.0°N, -98.5°W): 497m elevation, slope=1.53°, minimal topographic variation
+- Elevation difference: **+990m** between the two regions
+
+**2. Biome Boundaries & Ecotones**
+The foothills represent a **transition zone** between:
+- High-elevation coniferous forests (tree_cover_2000 = 42.9% at 40.0°N, -105.3°W)
+- Semi-arid grasslands (tree_cover_2000 = 0% on the plains)
+- Urban/suburban development (pop_density = 214.9 at my foothill sample)
+
+Paper 2 notes that **84% of locations have tangent angles >60°**, meaning local geometry differs from global. This effect is",22,4,5,4,5,4,4.4,5
+T3_14,tier3,Why might embedding-based retrieval be less reliable in the Rocky Mountain foothills compared to the Great Plains?,location_profile,Mountain_West,claude-sonnet-4.5,no_geometric,gemma-3-27b,"```json
+{
+  ""action"": ""tool_calls"",
+  ""tier"": ""tier3"",
+  ""reasoning"": ""Now I have embeddings for Rocky Mountain foothills (40.0°N, -105.3°W) and two Great Plains locations. Next steps: (1) use search_similar on each embedding to examine neighborhood consistency - homogeneous regions should have more similar neighbors, (2) interpret key dimensions to see if foothills use different dimensions than plains, (3) calculate embedding distances to quantify heterogeneity."",
+  ""calls"": [
+    {""tool"": ""search_similar"", ""params"": {""embedding"": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1866, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1928, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.2151, 0.0, -0.2156, 0.1912, 0.0, 0.0, 0.0, 0.2393, 0.0, 0.0, 0.0, -0.2653, 0.0, 0.0, 0.0, 0.2979, 0.2602, 0.0, -0.2541, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], ""k"": 10}},
+    {""tool"": ""search_similar"", ""params"": {""embedding"": [0.0, -0.2381, 0.0,",7,2,3,2,4,3,2.7,3
+T3_14,tier3,Why might embedding-based retrieval be less reliable in the Rocky Mountain foothills compared to the Great Plains?,location_profile,Mountain_West,claude-sonnet-4.5,llm_only,gemma-3-27b,"This is an interesting question about embedding-based retrieval systems in different geographic contexts. Let me break down why this might be the case from an environmental and geographic perspective:
+
+## Geographic and Environmental Complexity
+
+**Rocky Mountain Foothills (More Complex):**
+1. **Topographic Heterogeneity**: The foothills feature highly variable terrain with rapid elevation changes, creating diverse microclimates and ecosystems within small areas
+2. **Environmental Gradients**: Sharp transitions between montane forests, grasslands, riparian zones, and alpine environments occur over short distances
+3. **Aspect Variation**: North-facing vs. south-facing slopes can have dramatically different vegetation, moisture levels, and temperatures
+4. **Localized Weather Patterns**: Orographic effects create highly localized precipitation and wind patterns
+5. **Ecosystem Diversity**: Multiple overlapping biomes (Great Plains grasslands transitioning to montane/subalpine zones)
+
+**Great Plains (More Uniform):**
+1. **Topographic Uniformity**: Relatively flat to gently rolling terrain with gradual elevation changes
+2. **Consistent Ecosystems**: Predominantly grassland/prairie ecosystems with more predictable patterns
+3. **Broader Environmental Zones**: Environmental characteristics change more gradually across larger geographic scales
+4. **Predictable Climate Patterns**: More uniform weather patterns across larger areas
+
+## Implications for Embedding-Based Retrieval
+
+**Why Foothills Are More Challenging:**
+
+1. **Semantic Ambiguity**: Descriptions of foothill locations may contain mixed signals (e.g., ""grassland with pine trees nearby"" could describe many different specific conditions)
+
+2. **Scale Sensitivity**: Small geographic differences in the foothills correspond to large environmental differences, making location precision critical
+
+3. **Terminology Overlap**: Similar descriptive terms may refer to very different conditions depending on elevation, aspect, and loc",0,2,4,4,5,3,3.5,1
+T3_14,tier3,Why might embedding-based retrieval be less reliable in the Rocky Mountain foothills compared to the Great Plains?,location_profile,Mountain_West,claude-opus-4.6,full,gemma-3-27b,"# Why Embedding-Based Retrieval Is Less Reliable in the Rocky Mountain Foothills vs. the Great Plains
+
+## The Short Answer
+
+The Rocky Mountain foothills represent a **steep environmental gradient compressed into a small geographic space**, which creates fundamental challenges for embedding-based retrieval. The Great Plains, by contrast, are **environmentally homogeneous over vast areas**, making nearest-neighbor retrieval far more consistent. This is reflected in the regional coherence statistics: **Great Plains coherence = 0.144** (the most coherent region in CONUS) vs. **Mountain West coherence = 0.192** (substantially less coherent).
+
+---
+
+## 1. Extreme Environmental Variability Over Short Distances
+
+The data I retrieved along a ~25 km west-east transect near Boulder, CO dramatically illustrates this:
+
+| Variable | Mountain (40.03°N, 105.55°W) | Foothills (40.01°N, 105.27°W) | Fort Collins area (40.59°N, 105.08°W) |
+|---|---|---|---|
+| **Elevation** | 3,082 m | 1,702 m | 1,518 m |
+| **LST Day** | 6.8°C | 17.7°C | 21.0°C |
+| **LST Night** | -1.3°C | 7.1°C | 4.5°C |
+| **Tree Cover** | 88.6% | 4.7% | 2.4% |
+| **NDVI Max** | 0.73 | 0.57 | 0.43 |
+| **Soil pH** | 5.56 | 7.06 | 7.96 |
+| **Soil Organic C** | 17.0 | 5.4 | 2.4 |
+
+Within just ~25 km, elevation drops **1,380 meters**, daytime temperature rises **~14°C**, tree cover plummets from **89% to 5%**, and soil pH shifts from **acidic (5.6)",32,4,5,4,5,4,4.4,4
+T3_14,tier3,Why might embedding-based retrieval be less reliable in the Rocky Mountain foothills compared to the Great Plains?,location_profile,Mountain_West,claude-opus-4.6,no_geometric,gemma-3-27b,"## Why Embedding-Based Retrieval Is Less Reliable in the Rocky Mountain Foothills vs. the Great Plains
+
+This is a fundamental question about the **geometric structure of the AlphaEarth embedding space**, and the data from our four sampled locations — two in the Colorado Front Range foothills and two in the central Great Plains — powerfully illustrates the answer.
+
+---
+
+### 1. The Core Finding: Environmental Heterogeneity vs. Homogeneity
+
+The geometric dictionary from Paper 2 directly quantifies this:
+
+| Region | Retrieval Coherence | Interpretation |
+|---|---|---|
+| **Great Plains** | **0.144** (lowest) | Neighbors are highly consistent — **high confidence** |
+| **Mountain West** | **0.192** | Neighbors are less consistent — **moderate-low confidence** |
+| Mountain fronts/biome boundaries | **>0.22** | Explicitly flagged as **low confidence** zones |
+
+The Rocky Mountain foothills sit precisely at the **mountain front / biome boundary** — the worst-case scenario for embedding retrieval. Here's why:
+
+---
+
+### 2. Environmental Gradients Are Steep in the Foothills
+
+Comparing our two foothills locations (Boulder area at 40.0°N, 105.3°W vs. Colorado Springs foothills at 38.9°N, 104.9°W), despite being in the same general region:
+
+- **Elevation** differs by 348 m (1,937 vs. 2,286 m)
+- **Tree cover** swings from 43% to 27%
+- **ET** drops from 675 to 541 mm/yr
+- **Daytime LST** jumps from 15.5°C to 20.4°C
+- **Soil pH** shifts from 6.3 to 7.3 (acidic forest soil → alkaline grassland)
+- **Slope** ranges from 11.2° to 7.1°
+
+Their **embedding distance is 0.64** and **cosine similarity is 0.79** — meaning even nearby footh",17,4,5,4,5,4,4.4,5
